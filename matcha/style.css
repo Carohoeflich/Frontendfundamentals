@@ -1,3 +1,17 @@
+body{
+  background-color: color #fffbf7;
+ }
 h1 {
     color: #025157;
+  }
+h4{
+  color: #46484c;
+  }
+
+p{
+  color: #8b8b8bcc;
+}
+  .trybtn{
+    background-color: #025157;
+    color: #FFFFFF;
   }
