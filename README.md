@@ -1,6 +1,7 @@
 # Frontend Fundamentals throughout the first Module of BEDU
 <div align=center>
-🚥Work in progress🚥 through sessions.<p>
+⚠️Work in progress⚠️ through sessions.<p>
+  Link to the site <a href="https://quizzical-bose-eb5daf.netlify.app">→HERE.←</a>
   <p>Author:<p>
   <img src="https://raw.githubusercontent.com/Carohoeflich/Frontendfundamentals/master/assets/carolinahoeflich.gif" alt="carolina hoeflich" width="281" height="84"/>
   </div>
