@@ -3,10 +3,13 @@ body{
   text-align: center;
   min-height: 100vh;
   margin: 0;
+  display: block;
+  box-sizing: border-box;
  }
 
  main{
    text-align: center;
+   margin: 280px 0 0 0;
  }
  .header{
    min-height: 50px;
@@ -16,8 +19,14 @@ h1 {
   color: #025157;
   font-family: "Alegreya", serif;
   font-size: 60px;
-  margin-bottom: 24px;
+  font-weight: 500;
+  line-height: 70px;
+  text-align: center;
+  word-spacing: 0;
+  display: block;
+  transform: none;
   }
+
 h4{
   color: #46484c;
     font-family: "Slabo 27px", serif;
@@ -28,9 +37,14 @@ h4{
 p{
   color: #8b8b8bcc;
 }
+.actions{
+  font-weight: 600;
+}
 
-a{
-  color: rgb(117, 177, 57);
+.actions a {
+  color: #67b54b);
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 input{
@@ -81,12 +95,20 @@ form{
   }
 
 .matchaimg{
-  display: grid;
-  margin-top: 32px;
-  margin-bottom: 16px;
-  object-fit: cover;
-  width: 50%;
+  text-align: center;
+  vertical-align: middle;
+  display: inline;
+  box-sizing: border-box;
+  transform: none;
   }
+
+.intro{
+  text-align: center;
+  margin: 32px 16px;
+  display: block;
+  transform: none;
+  box-sizing: border-box;
+}
 
 .freetrial{
   margin-bottom: 10px;
@@ -103,10 +125,16 @@ form{
   }
 
 .navbar{
+    background-color: #fffbf7;
     position:relative;
     align-items:center;
     justify-content:space-between;
-    padding: 16px 8px;
+    padding: 8px 16px 8px 16px;
+    position: fixed;
+    bottom: 800px;
+    display: flex;
+    transform: none;
+    box-sizing: border-box;
   }
 
   .video{
