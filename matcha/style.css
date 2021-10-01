@@ -168,13 +168,9 @@ figure.intro>img {
   font-size: 20px;
 }
 
-.author {
-  opacity: 60%;
-  color: #025157;
-}
 
 .footer {
-  position: relative;
+  display: flex;
   min-height: 50px;
 }
 
@@ -185,14 +181,29 @@ figure.intro>img {
 }
 
 .video {
+  background-color: blueviolet;
   display: flex;
-  margin: 20%;
+  justify-content: center;
+  padding: 40px;
+  margin: 10px;
 }
 
-.videoprueba {
+
+article{
   display: inline;
+  margin: 15px;
 }
 
-.parrafovideo {
-  display: inline;
+.videoprueba{
+  width: auto;
+}
+
+.videoprueba > img{
+  display: flex;
+  height: 25%;
+}
+
+.parrafovideo{
+ background-color: chartreuse;
+ width: 35%;
 }
