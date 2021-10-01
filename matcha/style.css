@@ -7,6 +7,7 @@ body{
 
  .header{
    min-height: 50px;
+   box-sizing: border-box;
  }
 h1 {
     color: #025157;
@@ -22,17 +23,33 @@ h4{
 p{
   color: #8b8b8bcc;
 }
-  .trybtn{
-    background-color: #025157;
-    color: #FFFFFF;
+
+a{
+  color: rgb(117, 177, 57);
+}
+
+ .btn-link{
+  background-color: #025157;
+  color: #FFFFFF;
   }
 
-  .author{
+.button{
+    background-color: rgb(117, 177, 57);
+  }
+
+.author{
     opacity: 60%;
     color: #025157;
   }
 
-  .footer{
+.footer{
     position: relative;
     min-height: 50px;
+  }
+
+.navbar{
+    position:relative;
+    align-items:center;
+    justify-content:space-between;
+    padding:.5rem 1rem;
   }
