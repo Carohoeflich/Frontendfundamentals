@@ -1,11 +1,22 @@
 body{
   background-color: color #fffbf7;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+ }
+
+ .header{
+   min-height: 50px;
  }
 h1 {
     color: #025157;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 h4{
   color: #46484c;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
 p{
@@ -14,4 +25,14 @@ p{
   .trybtn{
     background-color: #025157;
     color: #FFFFFF;
+  }
+
+  .author{
+    opacity: 60%;
+    color: #025157;
+  }
+
+  .footer{
+    position: relative;
+    min-height: 50px;
   }
