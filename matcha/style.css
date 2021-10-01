@@ -9,12 +9,24 @@ body{
 
  main{
    text-align: center;
-   margin: 280px 0 0 0;
  }
+
  .header{
-   min-height: 50px;
-   box-sizing: border-box;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0px;
+  display: flex;
  }
+
+ .header > * {
+   display: inline-block;
+   font-size: 16px;
+   vertical-align: middle;
+   height: 100%;
+   line-height: 45px;
+ }
+
 h1 {
   color: #025157;
   font-family: "Alegreya", serif;
@@ -37,15 +49,28 @@ h4{
 p{
   color: #8b8b8bcc;
 }
-.actions{
-  font-weight: 600;
+
+.logo{
+  width: 15%;
 }
 
-.actions a {
-  color: #67b54b);
-  margin-right: 10px;
-  margin-left: 10px;
+.logo > img {
+height: 100%;
 }
+
+li{
+  display: inline;
+}
+
+.actions{
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+  display: inline;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 
 input{
     border: 1px solid #b6b6b6;
@@ -59,9 +84,10 @@ input{
 
 form{
   height: 55px;
+  margin-right: 10px;
 }
 
- .btn-link{
+ .buttontry{
   background-color: #025157;
   color: #FFFFFF;
   height: 100%;
@@ -125,18 +151,20 @@ form{
   }
 
 .navbar{
-    background-color: #fffbf7;
-    position:relative;
-    align-items:center;
-    justify-content:space-between;
-    padding: 8px 16px 8px 16px;
-    position: fixed;
-    bottom: 800px;
-    display: flex;
-    transform: none;
-    box-sizing: border-box;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
   }
 
   .video{
-    margin: 100px;
+    display: flex;
+    margin: 20%;
+  }
+
+  .videoprueba{
+    display: inline;
+  }
+
+  .parrafovideo{
+    display: inline;
   }
