@@ -7,7 +7,7 @@
   </div>
 <div align=mypars class"sessions">
   🚧 Session 1: <b>Structure of the site.</b>✔️<br>
-  🍔 Session 2: <b>Add a navbar</b><br>
+  🍔 Session 2: <b>Add a navbar</b>✔️<br>
   ⚙️ Session 3: <b>Divide sections into columns</b><br>
   📦 Session 4: <b>Using CSS Grid</b><br>
   📲 Session 5: <b>Responsive web design</b><br>
