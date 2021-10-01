@@ -13,16 +13,16 @@ body{
    box-sizing: border-box;
  }
 h1 {
-    color: #025157;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    padding: 1%;
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
   }
 h4{
   color: #46484c;
-  font-size: 17px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 1%;
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+    margin-bottom: 30px;
   }
 
 p{
@@ -38,18 +38,37 @@ input{
     padding: 6px 20px;
     width: 60%;
     max-width: 250px;
+    height: 100%;
     border-radius: 8px;
     margin-left: -10px;
+}
+
+form{
+  height: 55px;
 }
 
  .btn-link{
   background-color: #025157;
   color: #FFFFFF;
-  border-radius: 5px;
+  height: 100%;
+  border-radius: 8px;
   border: none;
+  box-sizing: border-box;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  padding: 6px 20px;
+  padding: 9px 6px;
+  margin-left: -10px;
+  }
+
+  .btn-link:hover{
+  background-color: #025157;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 9px 6px;
   margin-left: -10px;
   }
 
@@ -58,23 +77,19 @@ input{
   }
 
 .banner{
-    margin: 3%;
+    margin: 2%;
   }
 
-.matchacontent{
-    margin-top: 32px;
-    margin: 0 0 1rem;
+.matchaimg{
+  display: grid;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  object-fit: cover;
+  width: 50%;
   }
 
 .freetrial{
-  margin: 1%;
-}
-
-figure{
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 40px;
-  margin-inline-end: 40px;
+  margin-bottom: 10px;
 }
 
 .author{
@@ -91,5 +106,9 @@ figure{
     position:relative;
     align-items:center;
     justify-content:space-between;
-    padding:.5rem 1rem;
+    padding: 16px 8px;
+  }
+
+  .video{
+    margin: 100px;
   }
