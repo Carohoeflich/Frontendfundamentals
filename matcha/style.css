@@ -1,35 +1,38 @@
-body{
+body {
   background-color: color #fffbf7;
   text-align: center;
   min-height: 100vh;
   margin: 0;
   display: block;
   box-sizing: border-box;
- }
+}
 
- main{
-   text-align: center;
- }
+main {
+  text-align: center;
+}
 
- .header{
-  margin-top: 40px;
-  margin-left: 20px;
-  margin-right: 20px;
+.header {
+  padding-top: 10px;
   font-size: 0px;
   display: flex;
- }
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fffbf7;
+  margin-bottom: 200px;
+}
 
- .header > * {
-   display: inline-block;
-   font-size: 16px;
-   vertical-align: middle;
-   height: 100%;
-   line-height: 45px;
- }
+.header>* {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
 
 h1 {
   color: #025157;
-  font-family: "Alegreya", serif;
+  font-family: fantasy;
   font-size: 60px;
   font-weight: 500;
   line-height: 70px;
@@ -37,59 +40,75 @@ h1 {
   word-spacing: 0;
   display: block;
   transform: none;
-  }
+}
 
-h4{
+h4 {
   color: #46484c;
-    font-family: "Slabo 27px", serif;
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
 
-p{
+p {
   color: #8b8b8bcc;
 }
 
-.logo{
+
+a {
+  color: #025157;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+form>a{
+  color: #67b54b;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.logo {
+  margin-left: 10px;
   width: 15%;
+  align-content: center;
 }
 
-.logo > img {
-height: 100%;
+.logo>img {
+  height: 100%;
 }
 
-li{
+li {
   display: inline;
+  padding: 12px;
 }
 
-.actions{
+.actions, .actions:visited {
   text-align: center;
   color: #025157;
   font-weight: 500;
   display: inline;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: auto;
 }
 
-
-input{
-    border: 1px solid #b6b6b6;
-    padding: 6px 20px;
-    width: 60%;
-    max-width: 250px;
-    height: 100%;
-    border-radius: 8px;
-    margin-left: -10px;
+input {
+  border: 1px solid #b6b6b6;
+  padding: 7px 20px;
+  width: 60%;
+  max-width: 260px;
+  height: 100%;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: -10px;
 }
 
-form{
+form {
   height: 55px;
   margin-right: 10px;
 }
 
- .buttontry{
+.buttontry {
   background-color: #025157;
   color: #FFFFFF;
+  font-size: 16px;
   height: 100%;
   border-radius: 8px;
   border: none;
@@ -98,9 +117,9 @@ form{
   border-bottom-left-radius: 0;
   padding: 9px 6px;
   margin-left: -10px;
-  }
+}
 
-  .btn-link:hover{
+.btn-link:hover {
   background-color: #025157;
   color: #FFFFFF;
   border-radius: 5px;
@@ -110,61 +129,70 @@ form{
   border-bottom-left-radius: 0;
   padding: 9px 6px;
   margin-left: -10px;
-  }
-
-.button{
-    background-color: rgb(117, 177, 57);
-  }
-
-.banner{
-    margin: 2%;
-  }
-
-.matchaimg{
-  text-align: center;
-  vertical-align: middle;
-  display: inline;
-  box-sizing: border-box;
-  transform: none;
-  }
-
-.intro{
-  text-align: center;
-  margin: 32px 16px;
-  display: block;
-  transform: none;
-  box-sizing: border-box;
 }
 
-.freetrial{
-  margin-bottom: 10px;
+.buttonfree {
+  background-color: #67b54b;
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 100%;
+  border-radius: 4px;
+  border: none;
+  box-sizing: border-box;
+  padding: 20px 15px 20px 15px;
 }
 
-.author{
-    opacity: 60%;
-    color: #025157;
-  }
 
-.footer{
-    position: relative;
-    min-height: 50px;
-  }
+.button {
+  background-color: rgb(117, 177, 57);
+}
 
-.navbar{
+.banner {
+  margin: 2%;
+}
+
+
+.intro {
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+figure.intro>img {
+  width: 70%;
+}
+
+.freetrial {
+  margin-bottom: 15px 0 16px 0;
+  font-size: 20px;
+}
+
+.author {
+  opacity: 60%;
+  color: #025157;
+}
+
+.footer {
+  position: relative;
+  min-height: 50px;
+}
+
+.navbar {
   text-align: center;
   color: #025157;
   font-weight: 500;
-  }
+}
 
-  .video{
-    display: flex;
-    margin: 20%;
-  }
+.video {
+  display: flex;
+  margin: 20%;
+}
 
-  .videoprueba{
-    display: inline;
-  }
+.videoprueba {
+  display: inline;
+}
 
-  .parrafovideo{
-    display: inline;
-  }
+.parrafovideo {
+  display: inline;
+}
