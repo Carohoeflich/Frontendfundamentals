@@ -5,6 +5,9 @@ body{
   margin: 0;
  }
 
+ main{
+   text-align: center;
+ }
  .header{
    min-height: 50px;
    box-sizing: border-box;
@@ -13,11 +16,13 @@ h1 {
     color: #025157;
     font-size: 50px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 1%;
   }
 h4{
   color: #46484c;
   font-size: 17px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 1%;
   }
 
 p{
@@ -28,14 +33,49 @@ a{
   color: rgb(117, 177, 57);
 }
 
+input{
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+    border-radius: 8px;
+    margin-left: -10px;
+}
+
  .btn-link{
   background-color: #025157;
   color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
   }
 
 .button{
     background-color: rgb(117, 177, 57);
   }
+
+.banner{
+    margin: 3%;
+  }
+
+.matchacontent{
+    margin-top: 32px;
+    margin: 0 0 1rem;
+  }
+
+.freetrial{
+  margin: 1%;
+}
+
+figure{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
 
 .author{
     opacity: 60%;
