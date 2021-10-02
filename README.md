@@ -15,3 +15,6 @@
   ⚖️ Session 7: <b>CSS Optimization</b><br>
   📩 Session 8: <b>Welcoming e-mail</b><br>
 </div>
+<p>
+  <h1>CONTRIBUTING</h1>
+  <a href="https://github.com/Carohoeflich/Frontendfundamentals/blob/master/CONTRIBUTING.md">HERE EXPLAINED</a>
