@@ -43,6 +43,10 @@ h1 {
   transform: none;
 }
 
+h2{
+  color: #0f1111;
+}
+
 h3{
   color: #025157;
   font-family: 'Alegreya', serif;
@@ -214,4 +218,72 @@ article{
   color: #343434;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+.box1{
+background-color: white;
+border-radius: 2%;
+margin: 5% 15% 5% 15%;
+position: relative;
+left: 12%;
+top:8%;
+}
+
+.box2{
+background-color: white;
+border-radius: 2%;
+margin: 5% 15% 5% 15%;
+position: relative;
+right: 12%;
+top:8%;
+}
+
+.box3{
+background-color: white;
+border-radius: 2%;
+margin: 5% 15% 5% 15%;
+position: relative;
+left: 12%;
+bottom: 8%;
+}
+
+.box4{
+background-color: white;
+border-radius: 2%;
+margin: 5% 15% 5% 15%;
+position: relative;
+right: 12%;
+bottom: 8%;
+}
+
+.box1 a:nth-of-type(1){
+color: #67b54b;
+text-decoration: none;
+font-weight: 700;
+}
+
+.box1 > .imagen{
+position: relative;
+left:50%;
+bottom: 100%;
+align-items: right;
+}
+
+.box1 > .contenido{
+margin: -10px;
+text-align: left;
+padding: 30px 20px 40px 40px;
+flex: 2;
+display: block;
+}
+.box1 > img{
+  height: 50px;
+}
+
+.blogs{
+  background-color: #025157;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
 }
