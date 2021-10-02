@@ -15,11 +15,10 @@ main {
   padding-top: 10px;
   font-size: 0px;
   display: flex;
-  position: sticky;
+  position: fixed;
   top: 0;
-  left: 0;
   background-color: #fffbf7;
-  margin-bottom: 200px;
+  width: 100%;
 }
 
 .header>* {
@@ -40,6 +39,7 @@ h1 {
   word-spacing: 0;
   display: block;
   transform: none;
+  margin-top: 200px;
 }
 
 h4 {
