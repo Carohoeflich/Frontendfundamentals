@@ -17,4 +17,4 @@
 </div>
 <p>
   <h1>CONTRIBUTING</h1>
-  <a href="https://raw.githubusercontent.com/Carohoeflich/Frontendfundamentals/master/CONTRIBUTING.md">HERE EXPLAINED</a>
+  <a href="https://github.com/Carohoeflich/Frontendfundamentals/blob/master/CONTRIBUTING.md">HERE EXPLAINED</a>
