@@ -9,6 +9,7 @@ body {
 
 main {
   text-align: center;
+  margin-top: 250px;
 }
 
 .header {
@@ -29,6 +30,7 @@ main {
   line-height: 45px;
 }
 
+
 h1 {
   color: #025157;
   font-family: fantasy;
@@ -39,7 +41,14 @@ h1 {
   word-spacing: 0;
   display: block;
   transform: none;
-  margin-top: 200px;
+}
+
+h3{
+  color: #025157;
+  font-family: 'Alegreya', serif;
+  font-size: 50px;
+  line-height: 40px;
+  font-weight: 500;
 }
 
 h4 {
@@ -119,18 +128,6 @@ form {
   margin-left: -10px;
 }
 
-.btn-link:hover {
-  background-color: #025157;
-  color: #FFFFFF;
-  border-radius: 5px;
-  border: none;
-  box-sizing: border-box;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 9px 6px;
-  margin-left: -10px;
-}
-
 .buttonfree {
   background-color: #67b54b;
   color: #FFFFFF;
@@ -142,10 +139,6 @@ form {
   padding: 20px 15px 20px 15px;
 }
 
-
-.button {
-  background-color: rgb(117, 177, 57);
-}
 
 .banner {
   margin: 2%;
@@ -181,29 +174,45 @@ figure.intro>img {
 }
 
 .video {
-  background-color: blueviolet;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-  margin: 10px;
+  display: inline-flex;
+  max-width: 70%;
+  margin: 100px auto;
+  align-items: center;
 }
 
 
 article{
-  display: inline;
+  display: block;
   margin: 15px;
 }
 
 .videoprueba{
-  width: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .videoprueba > img{
   display: flex;
-  height: 25%;
+  position: relative;
+  left: 5%;
+  opacity: 80%;
 }
 
 .parrafovideo{
- background-color: chartreuse;
+ flex: 1;
+ text-align: left;
+ box-sizing: border-box;
+ position: relative;
+ right: 5%;
  width: 35%;
 }
+
+.parrafovideo p{
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
