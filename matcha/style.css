@@ -287,3 +287,25 @@ display: block;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
 }
+
+.ecommerce{
+  height: 100vh;
+  background-color: #a1d683;
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+
+.usematcha{
+  background-color: #025157;
+  color: #FFFFFF;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  box-sizing: border-box;
+  padding: 15px 10px;
+}
+
+.brands p:nth-of-type(1){
+  color: #0f1111;
+  font-size: 20px;
+}
