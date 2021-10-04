@@ -342,11 +342,17 @@ margin: 0 0 1rem 0;
   padding: 30px 20px 40px 40px;
 }
 
+.ecommerce-grid{
+  display: grid;
+  grid-template: repeat(1, 10%) / repeat(2, 65%);
+  padding: 10%;
+}
+
 .ecommerce{
-  height: 100vh;
   background-color: #a1d683;
-  display:grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .usematcha{
@@ -359,7 +365,92 @@ margin: 0 0 1rem 0;
   padding: 15px 10px;
 }
 
-.brands p:nth-of-type(2){
+.brands-text{
+  text-align: left;
+  padding-right: 100px;
+}
+
+.brands-text p:nth-of-type(2){
   color: #0f1111;
+  font-size: 22px;
+}
+
+.brands-text h1:nth-of-type(1){
+  text-align: left;
+}
+
+.brands-text img{
+  margin-top: 10px;
+  width: 500px;
+  max-width: 100%;
+}
+
+/* .seecase{
+  background-color: #0f1111;
+} */
+
+.cases{
+background-color: #f7f8f7;
+position: relative;
+width: 320px;
+overflow: hidden;
+height: 650px;
+border-radius: 10px;
+}
+
+.photos{
+overflow: hidden;
+}
+
+.photos > img{
+width: 320px;
+height: 260px;
+}
+
+.phototext{
+  padding: 20px;
+  text-align: left;
+}
+
+.phototext h2:nth-of-type(1){
   font-size: 20px;
+  color: #025157;
+}
+
+.phototext p:nth-of-type(1){
+  color: #0f1111;
+  font-size: 25px;
+}
+
+.phototext p:nth-of-type(2){
+  font-size: 22px;
+}
+
+.phototext button:nth-of-type(1){
+background-color: #025157;
+color: #FFFFFF;
+font-size: 20px;
+border-radius: 8px;
+border: none;
+width: 280px;
+}
+
+.everlylogo{
+  background-color: #eedd7f;
+  position: relative;
+  top: 320px;
+  left: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+}
+
+.everlylogo img{
+  overflow: hidden;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  top: 30px;
 }
