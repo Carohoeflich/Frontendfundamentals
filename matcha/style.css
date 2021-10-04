@@ -128,6 +128,31 @@ form {
   margin-right: 10px;
 }
 
+.signupform{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 800px;
+  max-height: 100%;
+  height: 70px;
+  width: 500px;
+}
+
+.email{
+justify-content: center;
+display: inline;
+max-width: 800px;
+max-height: 100%;
+height: 70px;
+}
+
 .buttontry {
   background-color: #025157;
   color: #FFFFFF;
