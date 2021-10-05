@@ -385,10 +385,6 @@ margin: 0 0 1rem 0;
   max-width: 100%;
 }
 
-/* .seecase{
-  background-color: #0f1111;
-} */
-
 .cases{
 background-color: #f7f8f7;
 position: relative;
@@ -550,6 +546,7 @@ border-radius: 5px;
 @media (max-width: 575px) {
   main{
     margin-top: 5rem;
+    justify-content: center;
   }
   .actions{
     display: none;
@@ -579,10 +576,51 @@ border-radius: 5px;
   line-height: 1.2;
   }
 
-  .ecommerce-grid{
-    display: flex;
-    flex-direction: column;
-  }
+.blog-grid{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.contenido{
+margin: 5px;
+}
+
+._imagen img{
+width: 150%;
+height: 240px;
+position: relative;
+left: 10px;
+top: 2rem ;
+}
+
+.ecommerce-grid{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.brands-text{
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.how-does-it-work{
+  padding: 0;
+}
+
+.article{
+  margin: 3rem;
+}
+
+.description{
+  max-width: 100%;
+}
+
+.cards-grid{
+display: flex;
+flex-direction: column;
+}
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
