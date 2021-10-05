@@ -542,3 +542,66 @@ font-weight: 700;
 border: 1px solid #dadada;
 border-radius: 5px;
 }
+
+
+
+/* Responsive design */
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  main{
+    margin-top: 5rem;
+  }
+  .actions{
+    display: none;
+  }
+  .header form{
+    display: none;
+  }
+  .banner > img{
+    width: 100%;
+  }
+
+  .video{
+  flex-direction: column;
+  max-width: 90%;
+  }
+
+  .videoprueba > video{
+    width: 100%;
+  }
+
+  .parrafovideo{
+    width: 100%;
+  }
+
+  .parrafovideo > h3{
+  font-size: 25px;
+  line-height: 1.2;
+  }
+
+  .ecommerce-grid{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px and max-width: 767px) {
+  ...;
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px and max-width: 991px) {
+  ...;
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px and max-width: 1199px) {
+  ...;
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+  ...;
+}
+
