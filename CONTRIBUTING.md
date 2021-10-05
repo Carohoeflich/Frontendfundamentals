@@ -24,7 +24,7 @@ English
   <li><b>Siempre contribuye desde una rama nueva porfa!</b>
     </ul><p>
   
-  <h1>How to contribute</h1>
+  <h1>Como contribuir</h1>
   1. Fork it. 🍴 <br>
   2. Crea una rama (git checkout -b mi_nombre_de_rama) 🌳 <br>
   3. Commit tus cambios con mensaje (git commit -m "Agregue un codigo")<br>
