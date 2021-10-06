@@ -18,7 +18,6 @@ main {
 }
 
 .header {
-  vertical-align: middle;
   padding-top: 10px;
   font-size: 0px;
   display: flex;
@@ -30,7 +29,7 @@ main {
 }
 
 .navbar img{
-  vertical-align: middle;
+  margin-top: 15px;
 }
 
 .header>* {
