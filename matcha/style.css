@@ -609,6 +609,15 @@ width: 100%;
   margin-bottom: 40px;
 }
 
+.cases{
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.phototext{
+  text-align: center;
+}
+
 .how-does-it-work{
   padding: 0;
 }
@@ -753,3 +762,12 @@ grid-template: repeat(1, 10%) / repeat(2, 55%);
 }
 
 }
+
+/** dispositivos chicos (iphone 5) */
+@media (min-width: 320px){
+  .ecommerce-grid{
+  padding: 0;
+  }
+  
+  }
+  
