@@ -18,6 +18,7 @@ main {
 }
 
 .header {
+  vertical-align: middle;
   padding-top: 10px;
   font-size: 0px;
   display: flex;
@@ -26,6 +27,10 @@ main {
   background-color: #fffbf7;
   width: 100%;
   z-index: 1;
+}
+
+.navbar img{
+  vertical-align: middle;
 }
 
 .header>* {
@@ -638,6 +643,8 @@ article{
 margin: 150px;
 }
 
+
+
 }
 
 /** dispositivos medianos (tablets) y ipad PRO*/
@@ -736,5 +743,8 @@ margin: 150px;
     line-height: 1;
     margin-bottom: 40px;
   }
+
+
+
 
 }
