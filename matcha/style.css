@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+*:focus{
+  color: #67b54b;
+}
+
 body {
   background-color: color #fffbf7;
   text-align: center;
