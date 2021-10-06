@@ -743,7 +743,13 @@ margin: 150px;
     margin-bottom: 40px;
   }
 
+}
 
-
+/** dispositivos medianos (tablets) y ipad PRO rotados */
+@media (min-width: 1366px){
+.ecommerce-grid{
+display: grid;
+grid-template: repeat(1, 10%) / repeat(2, 55%);
+}
 
 }
