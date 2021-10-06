@@ -349,7 +349,7 @@ margin: 0 0 1rem 0;
 .ecommerce-grid{
   display: grid;
   grid-template: repeat(1, 10%) / repeat(2, 65%);
-  padding: 10%;
+  margin-bottom: 70px;
 }
 
 .ecommerce{
@@ -357,6 +357,12 @@ margin: 0 0 1rem 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 100px;
+}
+
+.seecase{
+  position: relative;
+  left: 120px;
 }
 
 .usematcha{
