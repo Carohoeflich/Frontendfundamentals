@@ -433,7 +433,6 @@ background-color: #f7f8f7;
 position: relative;
 width: 320px;
 overflow: hidden;
-height: 650px;
 border-radius: 10px;
 }
 
@@ -441,7 +440,7 @@ border-radius: 10px;
 overflow: hidden;
 }
 
-.photos > img{
+.carousel-item > img{
 width: 320px;
 height: 260px;
 }
