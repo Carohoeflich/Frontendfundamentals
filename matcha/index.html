@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap 5.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+  <!-- css -->
   <link rel="stylesheet" href="style.css">
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet">
@@ -12,8 +16,8 @@
 </head>
 
 <body>
-  <main>
-    <header class="header">
+  
+    <!-- <header class="header">
       <nav class="navbar">
         <a href="/" class="logo"><img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg"
             alt="Matcha Logo, refreshes the page if enter"></a>
@@ -42,8 +46,43 @@
         <button class="buttonfree">Start free trial</button>
       </form>
     </header>
-  </section>
+  </section> -->
 
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f5f7f5;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="actions navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Platform</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <a href="/">Sign In</a>
+          <button class="btn btn-success" type="submit">Start free trial</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <main>
     <h1>Build your blog. Build your business.</h1>
     <h4>
       Instantly publish articles, drive more traffic, grow your email list, and see your blog's impact on sales.

@@ -32,9 +32,38 @@ main {
   z-index: 1;
 }
 
-.navbar img{
+/* .navbar img{
   margin-top: 15px;
+} */
+
+/* Changed Styles for bootstrap */
+
+.navbar{
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+text-align: center;
 }
+
+.d-flex{
+  align-items: center;
+}
+
+.d-flex a:nth-last-of-type(1){
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.btn{
+background-color: #67b54b;
+border: none;
+padding: 10px;
+}
+
+
+/* My own code continues here */
 
 .header>* {
   display: inline-block;
@@ -115,7 +144,7 @@ li {
 .actions, .actions:visited {
   text-align: center;
   color: #025157;
-  font-weight: 500;
+  font-weight: 200;
   display: inline;
   margin: auto;
 }
