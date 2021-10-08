@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+/* doesnt show scrollbar but still works */
+body::-webkit-scrollbar{
+  display: none;
+}
+
 main {
   text-align: center;
   margin-top: 250px;
@@ -62,6 +67,10 @@ border: none;
 padding: 10px;
 }
 
+.carousel-indicators{
+  position: absolute;
+  bottom: 0;
+}
 
 /* My own code continues here */
 
