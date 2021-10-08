@@ -613,11 +613,16 @@ border-radius: 5px;
 
 
 /* Responsive design */
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 667px) {
   main{
     margin-top: 5rem;
     justify-content: center;
+  }
+
+  h1{
+    font-size: 40px;
   }
 
   h4{
@@ -690,7 +695,7 @@ width: 100%;
   margin-bottom: 50px;
   width: 320px;
   height: 100%;
-  right: 50px;
+  right: 100px;
 }
 
 .phototext{
@@ -740,6 +745,10 @@ margin: 150px;
   *{
     justify-content: center;
     align-items: center;
+  }
+
+  .navbar-toggler{
+    margin-right: 30px;
   }
 
   .video{
