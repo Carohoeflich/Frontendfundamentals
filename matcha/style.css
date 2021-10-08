@@ -61,7 +61,7 @@ text-align: center;
   font-size: 15px;
 }
 
-.btn{
+.btnfree{
 background-color: #67b54b;
 border: none;
 padding: 10px;
@@ -70,6 +70,24 @@ padding: 10px;
 .carousel-indicators{
   position: absolute;
   bottom: 0;
+}
+
+h5{
+  margin-bottom: 1rem;
+  color: #025157;
+  font-size: 16px;
+}
+
+.platforms button:nth-last-of-type(1){
+  padding: 19px;
+}
+
+.faq{
+  margin-top: 50px;
+}
+
+.accordion{
+  margin: 0 30rem 0 30rem;
 }
 
 /* My own code continues here */
@@ -115,7 +133,9 @@ h4 {
   color: #46484c;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
-  margin-bottom: 30px;
+  margin:0 300px 30px 300px;
+  text-align: center;
+  line-height: 1.5;
 }
 
 p {
@@ -599,9 +619,15 @@ border-radius: 5px;
     margin-top: 5rem;
     justify-content: center;
   }
-  /* .actions{
-    display: none;
-  } */
+
+  h4{
+    margin: 0;
+  }
+
+  .accordion{
+    margin: 0;
+  }
+
   .header form{
     display: none;
   }
