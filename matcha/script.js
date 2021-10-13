@@ -10,6 +10,7 @@ if(document.getElementById("btnModal")){
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";
+        alert('si funciona')
     }
 
     span.onclick = function() {

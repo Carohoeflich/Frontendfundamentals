@@ -237,7 +237,7 @@
 .modalContainer {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   padding-top: 100px;
   left: 0;
   top: 0;
@@ -253,12 +253,12 @@
   margin: auto;
   padding: 20px;
   border: 1px solid lightgray;
-  border-top: 10px solid #58abb7;
+  border-top: 10px solid #025157;
   width: 60%;
 }
 
 .modalContainer .close {
-  color: #aaaaaa;
+  color: #222121;
   float: right;
   font-size: 28px;
   font-weight: bold;
