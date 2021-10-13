@@ -10,6 +10,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
   <!-- css -->
   <link rel="stylesheet" href="style.css">
+  <!-- javascript -->
+  <script type="text/javascript" src="script.js"></script>
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap" rel="stylesheet">
   <title>Matcha Carolina</title>
@@ -58,7 +60,7 @@
     <form class=signupform>
       <div class="button">
       <input type="email" class="email" placeholder="Enter email address" />
-      <button type="submit" class="buttontry">Try it now→</button>
+      <button id="btnModal" type="submit" class="buttontry">Try it now→</button>
       </div>
     </form>
     <p class="freetrial">
@@ -72,6 +74,12 @@
     <figure class="intro">
         <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="Image of the Content in Matcha">
       </figure>
+
+      <div id="Modal" class="modalContainer">
+        <div class="modal-content">
+        <span class="close">X</span> <h2>Modal</h2>
+        <p>Se ha desplegado el modal y bloqueado el scroll del body!</p> </div>
+        </div>
   </main>
 
   <section class="video" role="Video showing how matcha works">
