@@ -1,7 +1,9 @@
+window.onload = function() {
+
 if(document.getElementById("btnModal")){
-    let modal = document.getElementById("Modal");
+    let modal = document.getElementById("modalTry");
     let btn = document.getElementById("btnModal");
-    let span = document.getElementsByClassName("close")[0];
+    let span = document.getElementsByClassName("closes")[0];
     let body = document.getElementsByTagName("body")[0];
 
         btn.onclick = function() {
@@ -10,7 +12,6 @@ if(document.getElementById("btnModal")){
         body.style.position = "static";
         body.style.height = "100%";
         body.style.overflow = "hidden";
-        alert('si funciona')
     }
 
     span.onclick = function() {
@@ -30,4 +31,5 @@ if(document.getElementById("btnModal")){
             body.style.overflow = "visible";
         }
     }
+   }
 }
