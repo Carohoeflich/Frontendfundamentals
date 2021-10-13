@@ -1,0 +1,14 @@
+//variables in sass start with the dollar sign
+$primary-color: #272727;
+$accent-color: #ff652f;
+$text-color: #fff;
+
+//map(array) in a variable
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 900
+);
+
+//var for media querys
+$mobile: 800px;

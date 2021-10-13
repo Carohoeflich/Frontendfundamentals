@@ -1,0 +1,66 @@
+//importing partials. Using partials to separate major components and importing them to th emain scss which later translates to css.
+@import './resets', './variables';
+
+//functions are used to compute and return values
+@function weight($weight-name){
+    @return map-get($font-weights , $weight-name );
+}
+
+//mixin should define styles
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+//a mixin example to change from a dark to a light theme
+@mixin theme($light-theme:true) {
+    @if $light-theme{
+        background: lighten($primary-color, 100%);
+        color: darken($text-color, 100%);
+    }
+}
+
+@mixin mobile {
+    @media (max-width: $mobile){
+        @content;
+    }
+}
+
+body{
+    background: $primary-color;
+    color: $text-color;
+    font-weight: map-get($font-weights, bold ); //getting the map we defined before.
+}
+
+//nesting
+.main{
+    @include flexCenter(row);
+    width: 80%;
+    margin: 0 auto;
+    #{&}-paragraph1{ // & equals the parent, so in this case & = .main. so we dont have to write it again. The # and the curly brases are called interpolation.
+    /* font-weight: map-get($font-weights, bold ); <-- this is how it was before the function */
+        font-weight: weight(bold);
+        margin: 10px;
+        &:hover{ //nesting inside nesting.
+            color: pink;
+        }
+    }
+    //extensions in sass let you copy the same attributes to another thing but you could change just One thing about it, so you dont retype the whole thing.
+    #{&}-paragraph2{
+    @extend .main-paragraph1;
+    &:hover {
+        color: $accent-color;
+    }
+    }
+
+    @include mobile(){
+        @include flexCenter(column);
+    }
+}
+
+//if a mixin which we defined as true to work, and we default it as false, it would be empty, and wouldnt even compile in the css file.
+.light {
+    @include theme($light-theme: false);
+}
