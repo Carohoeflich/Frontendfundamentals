@@ -103,7 +103,7 @@
   
   h1 {
     color: #025157;
-    font-family: fantasy;
+    font-family: 'Alegreya', serif;
     font-size: 60px;
     font-weight: 500;
     line-height: 70px;
@@ -716,6 +716,10 @@
   top: 2rem ;
   }
   
+.ecommerce{
+  padding: 0;
+}
+
   .ecommerce-grid{
   display: flex;
   flex-direction: column;
@@ -728,14 +732,13 @@
   }
   .seecase{
     position: relative;
-    left: 0;
+    left: 0px;
   }
   
   .cases{
     margin-bottom: 50px;
     width: 320px;
     height: 100%;
-    right: 100px;
   }
   
   .phototext{
@@ -775,7 +778,6 @@
   article{
   margin: 150px;
   }
-  
   
   
   }
@@ -892,11 +894,3 @@
   
   }
   
-  /** dispositivos chicos (iphone 5) */
-  @media (min-width: 320px){
-    .ecommerce-grid{
-    padding: 0;
-    }
-    
-    }
-    
