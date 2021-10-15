@@ -724,6 +724,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
   }
   
   .brands-text{
@@ -733,6 +734,7 @@
   .seecase{
     position: relative;
     left: 0px;
+    align-items: center;
   }
   
   .cases{
@@ -788,13 +790,26 @@
       justify-content: center;
       align-items: center;
     }
+
+    h4{
+      margin: 0;
+    }
   
     .navbar-toggler{
       margin-right: 30px;
     }
   
     .video{
+      display: grid;
       max-width: 100%;
+    }
+
+    .parrafovideo{
+      width: 90%;
+    }
+
+    .parrafovideo p:nth-last-of-type(2){
+      text-align: center;
     }
   
     .blog-grid{
@@ -805,6 +820,7 @@
     .ecommerce-grid{
       display: flex;
       flex-direction: column;
+      align-items: center;
     }
   
     .brands-text{
@@ -832,6 +848,10 @@
       left: 100px;
     }
   
+    .seecase{
+      position: relative;
+      left: 0;
+    }
     .phototext {
       text-align: center;
     }
@@ -894,3 +914,10 @@
   
   }
   
+
+  @media (min-width:1440px){
+    .seecase{
+      position: relative;
+      left: 0;
+    }
+  }
