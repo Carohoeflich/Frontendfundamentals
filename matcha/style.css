@@ -763,11 +763,11 @@
   align-items: center!important;
 }
 
-.signup-form{
+/* .signup-form{
   margin-right: 250px;
-}
+} */
 
-.signup-form input{
+.signupform input{
   border: 1px solid #b6b6b6;
     padding: 7px 20px;
     max-width: 250px;
