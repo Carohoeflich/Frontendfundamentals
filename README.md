@@ -12,7 +12,7 @@
   📦 Session 4: <b>Using CSS Grid</b>✔️<br>
   📲 Session 5: <b>Responsive web design</b>✔️<br>
   📺 Session 6: <b>Visual components</b>✔️<br>
-  ⚖️ Session 7: <b>CSS Optimization</b><br>
+  ⚖️ Session 7: <b>CSS Optimization</b>✔️<br>
   📩 Session 8: <b>Welcoming e-mail</b><br>
 </div>
 <p>
