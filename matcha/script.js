@@ -70,7 +70,7 @@ const sendEmail = (event) =>{
         sendEmailToApi(email,template);
     })
     .catch((error) => {
-        console.log(error, "Error al convertir el template."):
+        console.log(error, "Error al convertir el template.");
     });
 };
 
