@@ -650,8 +650,136 @@
   border-radius: 5px;
   }
   
+  .home-people {
+    background-image: url(https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png);
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    height: 350px;
+}
   
+.try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+}
+
+.try-it h2 {
+  color: #025157;
+  font-size: 60px;
+  font-family: "Alegreya", serif;
+}
+
+.try-it form {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.try-it input{
+  border: 1px solid #b6b6b6;
+    padding: 7px 20px;
+    max-width: 250px;
+    height: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: -10px;
+    justify-content: center;
+    display: inline;
+    max-height: 100%;
+    height: 70px;
+}
+
+.try-it p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
   
+.cta {
+  padding: 5% 10% 0;
+  margin: 0;
+  max-width: unset;
+}
+
+.cta .box {
+  background-color: #025157;
+  color: #fff;
+  padding: 5%;
+  border-radius: 10px;
+}
+
+.cta .box h2 {
+  font-family: "Alegreya", serif;
+  color: #fff;
+  font-size: 34px;
+  max-width: 340px;
+  line-height: 1.3;
+  text-align: left;
+  font-weight: 500;
+}
+
+.cta .box p {
+  color: #fff;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: left;
+}
+
+.cta .box p > a {
+  color: #6abf4b;
+}
+
+.cta .box form input, .cta .box form button {
+  vertical-align: middle;
+}
+
+.cta .box form button {
+  background-color: #67b54b;
+}
+
+.cta .box form + p {
+  color: #b3cbcd;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 340px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.signup-form{
+  margin-right: 250px;
+}
+
+.signup-form input{
+  border: 1px solid #b6b6b6;
+    padding: 7px 20px;
+    max-width: 250px;
+    height: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: -10px;
+    justify-content: center;
+    display: inline;
+    max-height: 100%;
+    height: 70px;
+}
   /* Responsive design */
   
   /** dispositivos móviles en vista viewport (vertical) */
